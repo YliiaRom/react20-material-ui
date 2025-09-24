@@ -55,7 +55,7 @@ const linksList = [
 function HomePage() {
   return (
     <div className="homePageWrapper">
-      <h1>Home</h1>
+      <h1>Material-UI</h1>
       <div className="descriptionGrid">
         <p>
           Базова одиниця вимірювання - 8px (spacing).
@@ -73,6 +73,7 @@ function HomePage() {
           !!! react / react-dom до встановлення material-ui
         </p>
       </div>
+      <h2>error boundary </h2>
       <div className="aboutCode">
         <div>
           Axios <br />

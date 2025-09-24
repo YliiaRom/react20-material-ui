@@ -1,8 +1,10 @@
+import ButtonPage from "@/pages/ButtonPage";
 import ErrorBoundariesPage from "@/pages/ErrorBoundariesPage";
 import ErrorPage from "@/pages/ErrorPage";
 import FsdPage from "@/pages/FsdPage";
 import HomePage from "@/pages/HomePage";
 import InterceptorsPage from "@/pages/InterceptorsPage";
+import MaterialUIPage from "@/pages/MaterialUIPage";
 import Page404 from "@/pages/Page404";
 import ReactErrorBoundaryPage from "@/pages/ReactErrorBoundaryPage";
 import SentrySDKPage from "@/pages/SentrySDKPage";
@@ -27,6 +29,22 @@ const router = createBrowserRouter([
         },
       },
       {
+        path: "/material-ui",
+        element: <MaterialUIPage />,
+        handle: {
+          title: "Material UI",
+          hidden: false,
+        },
+      },
+      {
+        path: "/button",
+        element: <ButtonPage />,
+        handle: {
+          title: "Button",
+          hidden: false,
+        },
+      },
+      {
         path: "/error-boundaries",
         element: <ErrorBoundariesPage />,
         handle: {
@@ -43,7 +61,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "use-error-boundary",
+        path: "/use-error-boundary",
         element: <UseErrorBoundary />,
         handle: {
           title: "useErrorBoundary",
@@ -51,7 +69,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "with-error-boundary",
+        path: "/with-error-boundary",
         element: <WithErrorBoundaryHOCPage />,
         handle: {
           title: "withErrorBoundary HOC",
@@ -59,7 +77,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "fsd",
+        path: "/fsd",
         element: <FsdPage />,
         handle: {
           title: "FSD",
@@ -67,7 +85,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "interseptor",
+        path: "/interseptor",
         element: <InterceptorsPage />,
         handle: {
           title: "interceptors",
@@ -75,7 +93,7 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "sentry",
+        path: "/sentry",
         element: <SentrySDKPage />,
         handle: {
           title: "Sentry SDK",

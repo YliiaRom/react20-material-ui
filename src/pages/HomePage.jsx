@@ -1,5 +1,12 @@
 const linksList = [
   {
+    "Material UI": "https://mui.com/material-ui/",
+  },
+  {
+    "MUI- безкоштовні шаблони":
+      "https://mui.com/material-ui/getting-started/templates/",
+  },
+  {
     "throw new Error":
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw",
   },
@@ -51,14 +58,19 @@ function HomePage() {
       <h1>Home</h1>
       <div className="descriptionGrid">
         <p>
-          Page404 - маршрут не зареєстрований <br /> Працює: <br /> &#123; path:
-          "*" <br />
-          Component: Page404 &#125;
+          Базова одиниця вимірювання - 8px (spacing).
+          <br />
+          xs,sm,md,lg,xl - ширіна на рівні брейкпоінтов <br />
+          Значення sm=&#123;3&#125; <br /> 1-12(бо сітка 12 колонок) <br />
+          xs=&#123;12&#125; - 100% ширина на мобільному
         </p>
         <p>
-          ErrorPage- неопрацьовані помилки <br />
-          помилка сталася при переході <br />
-          Працює: <br /> errorElement: &lt;ErrorPage&gt;
+          @mui/material - головний пакет, містить компоненти Material UI <br />
+          @emotion/react - частиною стилістичної системи Emotion <br />
+          @emotion/styled - для створення кастомних стилізованих компонентів
+          <br /> @mui/icons-material - іконки Material Design @fontsource/roboto
+          - шрифту Roboto <br />
+          !!! react / react-dom до встановлення material-ui
         </p>
       </div>
       <div className="aboutCode">

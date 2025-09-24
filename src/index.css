@@ -260,6 +260,8 @@ label.form > input {
   box-shadow: 0px 0px 2px #999, -2px -2px 3px #fff, 2px 2px 3px #999;
 }
 /* =================useErrorBoundaryWrapper */
+.buttonPageWrapper,
+.materialUiPageWrapper,
 .sentrySDKWrapper,
 .homePageWrapper,
 .interceptorsPageWrapper,

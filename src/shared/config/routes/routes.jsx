@@ -37,10 +37,10 @@ const router = createBrowserRouter([
         },
       },
       {
-        path: "/button",
+        path: "/practice-mui",
         element: <ButtonPage />,
         handle: {
-          title: "Button",
+          title: "practice MUI",
           hidden: false,
         },
       },

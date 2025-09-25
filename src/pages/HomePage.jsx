@@ -1,3 +1,5 @@
+import { Typography } from "@mui/material";
+
 const linksList = [
   {
     "Material UI": "https://mui.com/material-ui/",
@@ -5,6 +7,12 @@ const linksList = [
   {
     "MUI- безкоштовні шаблони":
       "https://mui.com/material-ui/getting-started/templates/",
+  },
+  {
+    "react-hook-form": "https://www.npmjs.com/package/react-hook-form",
+  },
+  {
+    yup: "https://github.com/jquense/yup?tab=readme-ov-file#api",
   },
   {
     "throw new Error":
@@ -51,6 +59,9 @@ const linksList = [
     "Sentry SDK (1.19.00)":
       "https://docs.sentry.io/platforms/javascript/guides/react/",
   },
+  {
+    "Сайт для тестування форм": "https://httpbin.org/",
+  },
 ];
 function HomePage() {
   return (
@@ -73,7 +84,7 @@ function HomePage() {
           !!! react / react-dom до встановлення material-ui
         </p>
       </div>
-      <h2>error boundary </h2>
+      <h2>Перехват помилок </h2>
       <div className="aboutCode">
         <div>
           Axios <br />
@@ -146,6 +157,20 @@ function HomePage() {
           ))
         )}
       </ul>
+      <Typography>
+        Сайт для перевірки роботи форми: https://httpbin.org/post
+      </Typography>
+      <Typography>
+        const response = await fetch("https://httpbin.org/post", &#123;
+        <br />
+        method: "POST",
+        <br />
+        headers: &#123; "Content-Type": "application/json" &#125;,
+        <br />
+        body: JSON.stringify(values),
+        <br />
+        &#125;);
+      </Typography>
     </div>
   );
 }

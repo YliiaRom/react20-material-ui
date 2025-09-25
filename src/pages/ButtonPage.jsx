@@ -1,10 +1,12 @@
 import ButtonComponentMain from "@/components/Button/ButtonComponentMain";
-import { Button } from "@mui/material";
+import FormTest01Component from "@/components/Form/FormTest01Component";
 
 function ButtonPage() {
   return (
     <div className="buttonPageWrapper">
+      <h1> Material UI - готові компоненти (Test Page)</h1>
       <ButtonComponentMain />
+      <FormTest01Component />
     </div>
   );
 }

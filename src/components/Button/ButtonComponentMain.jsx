@@ -82,8 +82,7 @@ function ButtonComponentMain() {
 
       {/* ==========Rating */}
       <Box sx={{ p: 1, border: "2px dashed #999" }}>
-        {" "}
-        <Typography color="secondary" variant="h4" component="body2">
+        <Typography color="secondary" variant="h4">
           Rating
         </Typography>
         <Button
